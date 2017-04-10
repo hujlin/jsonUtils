@@ -40,11 +40,12 @@ Step 2. Add the dependency
 	    <version>v1.0.1</version>
 	</dependency>
   
-  //1 json --->User(Object)
+ 1、 json --->User(Object)
+  
   
   User user =  JsonUtils.json2Object(json, User.class);
   
-  //2 Object ---->json
+ 2、 Object ---->json
   
     User user = new User("name","123");
     String json =  JsonUtils.obj2json(user);
