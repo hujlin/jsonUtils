@@ -26,6 +26,7 @@ Step 2. Add the dependency
 maven
 
 Step 1. Add the JitPack repository to your build file
+
 	<repositories>
 		<repository>
 		    <id>jitpack.io</id>
@@ -43,8 +44,8 @@ Step 2. Add the dependency
   
  1、 json --->User(Object)
   
-  
   User user =  JsonUtils.json2Object(json, User.class);
+  
   
  2、 Object ---->json
   
