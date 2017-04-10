@@ -1,7 +1,5 @@
 package com.hujlin.jsonlibrary;
 
-import android.util.Log;
-
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -253,7 +251,6 @@ public class JsonUtils {
                     fields.add(f);
                 }
             }
-
             clazz =clazz.getSuperclass();
         }
         return fields;
