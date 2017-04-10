@@ -44,7 +44,7 @@ Step 2. Add the dependency
   
  1、 json --->User(Object)
   
-  User user =  JsonUtils.json2Object(json, User.class);
+    User user =  JsonUtils.json2Object(json, User.class);
   
   
  2、 Object ---->json
